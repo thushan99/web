@@ -15,6 +15,14 @@ export function Gallery() {
   const galleryImages = [
 
 // Farm images
+
+  {
+      id: 12,
+      src: "/TomatoGuard.jpg",
+      alt: "Tomato Farm Overview",
+      category: "farm",
+      title: "Smart Farm Setup"
+    },
     {
       id: 12,
       src: "/farm/IMG-20250527-WA0022.jpg",
