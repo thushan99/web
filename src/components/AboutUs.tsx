@@ -8,7 +8,7 @@ export function AboutUs() {
       email: "wishalya.t@sliit.lk",
       bio: "Professor of Agricultural Technology with 15+ years of experience in IoT applications for farming.",
       github: "https://github.com/sarahjohnson",
-      linkedin: "https://linkedin.com/in/sarahjohnson",
+      linkedin: "https://www.linkedin.com/in/wishalya-tissera",
       image: "/madam.jpg",
       color: "from-green-400 to-green-600"
     },
@@ -18,7 +18,7 @@ export function AboutUs() {
       email: "poorna.p@sliit.lk",
       bio: "Expert in AI and mobile application development for sustainable agriculture.",
       github: "https://github.com/poornap",
-      linkedin: "https://linkedin.com/in/poornapanduwawala",
+      linkedin: "https://www.linkedin.com/in/poorna-panduwawala-386a73189",
       image: "/co.jpg",
       color: "from-blue-400 to-blue-600"
     },
@@ -37,8 +37,8 @@ export function AboutUs() {
       role: "Researcher",
       email: "it21178986@my.sliit.lk",
       bio: "Focused on disease detection using image processing and intelligent alert systems.",
-      github: "https://github.com/nimesha",
-      linkedin: "https://linkedin.com/in/nimeshamadurangi",
+      github: "https://github.com/NimeshaMadurangi",
+      linkedin: "https://www.linkedin.com/in/nimesha-madurangi-812972217",
       image: "/nimesha.jpg",
       color: "from-pink-400 to-pink-600"
     },
@@ -48,7 +48,7 @@ export function AboutUs() {
       email: "it21381140@my.sliit.lk",
       bio: "Responsible for IoT integration and ESP32-based automated systems.",
       github: "https://github.com/gameenudara",
-      linkedin: "https://linkedin.com/in/gameenudara",
+      linkedin: "https://www.linkedin.com/in/g-r-udara-bb6607218/",
       image: "/udara.jpg",
       color: "from-orange-400 to-orange-600"
     },
@@ -57,8 +57,8 @@ export function AboutUs() {
       role: "Researcher",
       email: "it21177064@my.sliit.lk",
       bio: "Specialist in backend architecture and real-time data flow pipelines.",
-      github: "https://github.com/thushanmiuranga",
-      linkedin: "https://linkedin.com/in/thushanmiuranga",
+      github: "https://github.com/thushan99",
+      linkedin: "www.linkedin.com/in/mtmiuranga",
       image: "/thushan.jpg",
       color: "from-indigo-400 to-indigo-600"
     },
@@ -67,8 +67,8 @@ export function AboutUs() {
       role: "Researcher",
       email: "it21181238@my.sliit.lk",
       bio: "Focuses on fertilizer recommendation systems and app integration.",
-      github: "https://github.com/nimeshchanuka",
-      linkedin: "https://linkedin.com/in/nimeshchanuka",
+      github: "https://github.com/NimeshChanuka2000",
+      linkedin: "https://www.linkedin.com/in/nimesh-chanuka-470608218/",
       image: "/chanuka.jpg",
       color: "from-teal-400 to-teal-600"
     },

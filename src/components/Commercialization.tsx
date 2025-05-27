@@ -153,15 +153,15 @@ export function Commercialization() {
         </div>
 
         {/* Current Locations */}
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-white/20">
+        {/* <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-white/20">
           <div className="text-center mb-8">
             <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-xl mb-4">
               <UsersIcon className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-gray-900">Already Trusted by Farmers</h3>
-          </div>
+          </div> */}
           
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
+          {/* <div className="grid md:grid-cols-3 gap-6 mb-8">
             {locations.map((location, index) => (
               <div key={index} className="flex items-center justify-between p-6 bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl border border-green-100 hover:shadow-lg transition-all duration-300">
                 <div className="flex items-center">
@@ -180,10 +180,10 @@ export function Commercialization() {
                 </span>
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* Contact CTA */}
-          <div className="text-center">
+          {/* <div className="text-center">
             <h4 className="text-xl font-bold text-gray-900 mb-4">Ready to Transform Your Farm?</h4>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
@@ -201,8 +201,8 @@ export function Commercialization() {
                 Book Free Demo
               </button>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </section>
   )
