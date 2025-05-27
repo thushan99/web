@@ -7,6 +7,9 @@ import { AboutUs } from "./components/AboutUs"
 import { MobileApp } from "./components/MobileApp"
 import { ContactUs } from "./components/ContactUs"
 import { Footer } from "./components/Footer"
+import { Commercialization } from "./components/Commercialization"
+import { Gallery } from "./components/Gallery"
+
 export function App() {
   return (
     <div className="w-full min-h-screen bg-white">
@@ -16,9 +19,11 @@ export function App() {
         <ProjectScope />
         <Milestones />
         <Downloads />
+        <Commercialization/>
         <AboutUs />
         <MobileApp />
         <ContactUs />
+        <Gallery />
       </main>
       <Footer />
     </div>

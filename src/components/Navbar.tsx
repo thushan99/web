@@ -17,6 +17,8 @@ export function Navbar() {
     { name: "Project Scope", href: "#project-scope" },
     { name: "Milestones", href: "#milestones" },
     { name: "Downloads", href: "#downloads" },
+    { name: "Commercialization", href: "#commercialization" },
+    { name: "Mobile App", href: "#mobile-app" },
     { name: "About Us", href: "#about-us" },
     { name: "Contact Us", href: "#contact-us" },
   ]
@@ -32,8 +34,8 @@ export function Navbar() {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-500 ${
       isScrolled 
-        ? "bg-white/80 backdrop-blur-xl border-b border-white/20 shadow-lg shadow-green-500/5" 
-        : "bg-white/60 backdrop-blur-md"
+        ? "bg-white border-b border-gray-200 shadow-lg shadow-green-500/5" 
+        : "bg-white"
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
@@ -90,7 +92,7 @@ export function Navbar() {
         <div className={`md:hidden transition-all duration-300 overflow-hidden ${
           isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
         }`}>
-          <div className="px-2 pt-2 pb-3 space-y-1 bg-white/90 backdrop-blur-md border-t border-white/20 rounded-b-2xl">
+          <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200 rounded-b-2xl">
             {navItems.map(item => (
               <button
                 key={item.name}
