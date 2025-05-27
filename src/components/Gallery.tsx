@@ -323,11 +323,11 @@ export function Gallery() {
                   className={`w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ${
                     image.category === 'app' ? 'object-contain bg-gray-100' : ''
                   }`}
-                  onError={(e) => {
-                    console.error(`Failed to load image: ${image.src}`);
-                    // You can add a fallback image here
-                    // e.currentTarget.src = '/placeholder-image.jpg';
-                  }}
+                  // onError={(e) => {
+                  //   console.error(`Failed to load image: ${image.src}`);
+                  //   // You can add a fallback image here
+                  //   // e.currentTarget.src = '/placeholder-image.jpg';
+                  // }}
                 />
               </div>
               
