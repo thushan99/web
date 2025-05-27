@@ -21,6 +21,7 @@ export function Navbar() {
     { name: "Mobile App", href: "#mobile-app" },
     { name: "About Us", href: "#about-us" },
     { name: "Contact Us", href: "#contact-us" },
+    // { name: "Gallery", href: "#gallery" },
   ]
 
   const scrollToSection = (href: string) => {

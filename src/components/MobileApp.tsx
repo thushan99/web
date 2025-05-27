@@ -97,7 +97,7 @@ export function MobileApp() {
           <div className="flex justify-center mb-8">
             <div className="relative group">
               <img
-                src="/tomatoguard-logo.png"
+                src="/tomatoLogo1.png"
                 alt="TomatoGuard Logo"
                 className="h-16 transition-transform duration-300 group-hover:scale-110"
               />

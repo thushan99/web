@@ -20,8 +20,8 @@ export function App() {
         <Milestones />
         <Downloads />
         <Commercialization/>
+         <MobileApp />
         <AboutUs />
-        <MobileApp />
         <ContactUs />
         <Gallery />
       </main>
