@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import { MenuIcon, XIcon } from "lucide-react"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)

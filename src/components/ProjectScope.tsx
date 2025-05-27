@@ -1,4 +1,3 @@
-import React from "react"
 import { TargetIcon, EyeIcon, CheckCircleIcon, BookOpenIcon } from "lucide-react"
 
 export function ProjectScope() {
